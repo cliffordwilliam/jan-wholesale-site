@@ -53,6 +53,7 @@ footer {
 }
 nav {
   position: relative;
+  align-items: center;
 }
 .logo {
   height: 3.5rem;
@@ -84,6 +85,7 @@ nav {
   height: 1rem;
   display: none;
   margin: 1rem;
+  width: auto;
 }
 @media only screen and (max-width: 600px) {
   .burger-img {

@@ -57,15 +57,20 @@ nav {
 }
 .logo {
   height: 3.5rem;
+  width: auto;
   padding: 1rem;
 }
 .ul-menu {
+  padding: 0;
+  margin: 0;
   display: flex;
   list-style: none;
   overflow: hidden;
   transition: max-height 0.3s ease-in-out;
 }
 .li-menu {
+  padding: 0;
+  margin: 0;
   display: block;
 }
 .item-menu {
@@ -101,6 +106,7 @@ nav {
   }
   #burger:checked ~ .nav.ul-menu {
     max-height: 12rem;
+    z-index: 3;
   }
 }
 section {
@@ -260,7 +266,7 @@ img {
 
 .black-logo {
   filter: invert(1);
-  width: 300px;
+  max-width: 300px;
   margin: 0 auto;
 }
 .small-black-logo {

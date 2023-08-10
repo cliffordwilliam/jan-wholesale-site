@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jan</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="root flex">
+        <a href="/"><img class="logo" src="./logo.svg" alt="" /></a>
+        <label for="burger"
+          ><img class="burger-img" src="./burger.svg" alt=""
+        /></label>
+        <input id="burger" type="checkbox" />
+        <ul class="nav ul-menu">
+          <li class="li-menu">
+            <a class="item-menu" href="/">Home</a>
+          </li>
+          <li class="li-menu">
+            <a class="item-menu" href="/about.html">About Us</a>
+          </li>
+          <li class="li-menu">
+            <a class="item-menu" href="/contact.html">Contact Us</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <div class="container root pad">
+          <img class="black-logo" src="./logo.svg" alt="" />
+          <h1 class="text-center small-h1">YOUR FOOD AND BEVERAGE SOLUTION</h1>
+        </div>
+        <div class="container root pad con-relative" id="carousel-1">
+          <!-- carousel -->
+          <div class="slide-container">
+            <!-- slide -->
+            <div class="slide background front flex show">
+              <img class="background img-dark" src="./c.jpeg" alt="" />
+              <div class="container pad center text-white con-narrow">
+                <h2>OUR TORTILLA CHIPS ARE THE ULTIMATE SNACK CHIP</h2>
+                <p>With an all-corn taste and an authentic crunch.</p>
+              </div>
+            </div>
+            <!-- slide -->
+            <div class="slide background front flex">
+              <img class="background img-dark" src="./p.jpeg" alt="" />
+              <div class="container pad center text-white con-narrow">
+                <h2>MOUNTAIN MIST</h2>
+                <p>It's the homemade taste that we're famous for.</p>
+              </div>
+            </div>
+            <!-- slide -->
+            <div class="slide background front flex">
+              <img class="background img-dark" src="./l.jpeg" alt="" />
+              <div class="container pad center text-white con-narrow">
+                <h2>MAKES THE ORDINARY</h2>
+                <p>Extraordinary.</p>
+              </div>
+            </div>
+            <!-- slide -->
+            <div class="slide background front flex">
+              <img class="background img-dark" src="./pp.jpeg" alt="" />
+              <div class="container pad center text-white con-narrow">
+                <h2>MARCELS'S</h2>
+                <p>The best pancake you will ever find.</p>
+              </div>
+            </div>
+          </div>
+          <button class="btn prev-btn btn-on-slide btn-secondary"><</button>
+          <button class="btn next-btn btn-on-slide r btn-secondary">></button>
+        </div>
+      </section>
+      <section>
+        <div class="container root pad">
+          <h2 class="text-center">OUR PRODUCTS</h2>
+        </div>
+        <div class="container root flex">
+          <div class="col-one-third pad">
+            <img src="./c.jpeg" alt="" />
+          </div>
+          <div class="col-one-third pad">
+            <img src="./p.jpeg" alt="" />
+          </div>
+          <div class="col-one-third pad">
+            <img src="./l.jpeg" alt="" />
+          </div>
+          <div class="col-one-third pad">
+            <img src="./pp.jpeg" alt="" />
+          </div>
+          <div class="col-one-third pad">
+            <img src="./pi.jpeg" alt="" />
+          </div>
+          <div class="col-one-third pad">
+            <img src="./co.jpeg" alt="" />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="root pad text-center text-white">
+        <p>Copyright © 2023 Logo Pte Ltd. All Rights Reserved.</p>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
